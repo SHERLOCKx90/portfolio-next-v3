@@ -27,6 +27,7 @@ import LogoImage from '../Assets/logo.svg'
 const NavBar = () => {
   return (
     <nav className='sticky top-0 z-50 bg-gray-100/20 backdrop-blur-lg transition-all justify-center flex flex-row items-center py-4'>
+        {/* eslint-disable react/no-unescaped-entities */}
         <aside className='flex flex-row gap-20 items-center justify-center'>
             <Image src={LogoImage} alt='This is the logo image' width={100} height={100}/>
             <ul className='list-none flex flex-row justify-between gap-10'>

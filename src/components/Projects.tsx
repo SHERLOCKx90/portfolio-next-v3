@@ -9,6 +9,7 @@ import bulb from '../Assets/bulb.png'
 const Projects = () => {
     return (
         <div className='flex flex-row justify-center items-center mx-60 max-w-screen h-[100vh] sticky top-0 z-20 bg-white'>
+            {/* eslint-disable react/no-unescaped-entities */}
             <div className='grid grid-cols-2 w-[40%] h-fit'>
                 {/* <Image src={ProjectImg} alt='This is the image of projects' width={400} height={400} /> */}
                 <Image src={ProjectImg1} alt='this is project image' width={300} height={300} className='filter grayscale hover:filter-none translate-y-1 transition-all cursor-pointer rounded-t-full hover:translate-y-2' />

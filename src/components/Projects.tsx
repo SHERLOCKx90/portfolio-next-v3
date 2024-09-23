@@ -44,7 +44,7 @@ import { motion, useInView } from 'framer-motion';
 
 const Projects = () => {
     const ref = useRef(null); // Create a reference for the section
-    const isInView = useInView(ref, { triggerOnce: true }); // Detect if the section is in view
+    const isInView = useInView(ref); // Detect if the section is in view
 
     // Variants for the text animations
     const textVariants = {

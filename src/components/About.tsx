@@ -24,7 +24,7 @@ import { motion, useInView } from 'framer-motion';
 
 const About = () => {
     const ref = useRef(null); // Reference for the section to track its view state
-    const isInView = useInView(ref, { triggerOnce: true }); // Detect if the section is in view and trigger only once
+    const isInView = useInView(ref); // Detect if the section is in view and trigger only once
 
     // Animation variants for entry
     const textVariants = {

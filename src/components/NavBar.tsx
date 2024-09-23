@@ -14,7 +14,7 @@ const NavBar = () => {
     };
 
     return (
-        <nav className='sticky top-0 z-50 bg-gray-100/20 backdrop-blur-lg transition-all justify-between flex flex-row items-center py-10 px-14 sm:py-4 sm:px-4'>
+        <nav className='sticky top-0 z-50 bg-gray-100/20 backdrop-blur-lg transition-all justify-between flex flex-row items-center py-10 px-10 sm:py-4 sm:px-4'>
             {/* eslint-disable react/no-unescaped-entities */}
             <a href="#"><Image src={LogoImage} alt='This is the logo image' width={100} height={100} className='hover:translate-x-2 transition-transform cursor-pointer' /></a>
 
